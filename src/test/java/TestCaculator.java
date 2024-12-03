@@ -14,6 +14,6 @@ public class TestCaculator {
     @Test
     public void testSub(){
         Caculator cals = new Caculator();
-        Assert.assertEquals(cals.sub(2,2),0);
+        Assert.assertEquals(cals.sub(5,5),0);
     }
 }
